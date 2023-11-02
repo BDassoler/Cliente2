@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl:auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aula-teste
+    password: admin
+    username: postgres
+    driverClassName: org.postgresql.Driver
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: bruna.senac.back@gmail.com
+    password: "kwwp syel mgis ycwa"
+    port: '587'
+
